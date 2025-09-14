@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Jae Cunningham</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="Project highlights for Jae Cunningham." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Jae Cunningham</h1>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active" aria-current="page">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Project Highlights</h2>
+    <p class="lede">A small sampling of coursework and personal builds.</p>
+
+    <div class="project-grid">
+      <article class="project">
+        <h3>Responsive Layout Exercise</h3>
+        <p>Demonstrates semantic HTML, flexible grid, and fluid typography.</p>
+        <a class="button" href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank" rel="noopener">CSS Learning Resource</a>
+      </article>
+
+      <article class="project">
+        <h3>Portfolio Iteration</h3>
+        <p>Refined color palette, spacing scale, and link states for better UX.</p>
+        <a class="button" href="https://web.dev/learn/" target="_blank" rel="noopener">Web.dev Learning</a>
+      </article>
+
+      <article class="project">
+        <h3>Accessibility Checklist</h3>
+        <p>Alt text, labels, focus outlines, and color contrast validation.</p>
+        <a class="button" href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener">WCAG Guidelines</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Jae Cunningham • <a href="mailto:you@example.com">Contact</a></p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

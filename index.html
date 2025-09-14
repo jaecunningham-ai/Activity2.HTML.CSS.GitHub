@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jae Cunningham — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="Professional mini‑site for Jae Cunningham (portfolio, about, and contact)." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Jae Cunningham</h1>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h2 class="headline">Developer • Student • Creator</h2>
+        <p class="lede">
+          Welcome! This simple website showcases my HTML and CSS skills with clean, accessible code
+          and a professional presentation.
+        </p>
+        <p>
+          Explore to learn more <a href="about.html">about me</a> and see a few <a href="projects.html">project highlights</a>.
+        </p>
+      </div>
+      <figure class="hero-media">
+        <!-- Replace this image with a personal photo of you (rename file and update src and alt) -->
+        <img src="img/jae-portrait.svg" alt="Portrait of Jae Cunningham" width="640" height="640" />
+        <figcaption class="sr-only">Profile portrait</figcaption>
+      </figure>
+    </section>
+
+    <section class="cards container">
+      <article class="card">
+        <h3>Front‑End Foundations</h3>
+        <p>Semantic HTML, responsive CSS (Flexbox/Grid), and accessibility best practices.</p>
+      </article>
+      <article class="card">
+        <h3>Clean, Minimal Design</h3>
+        <p>Simple layouts, bold type, and a subtle retro vibe inspired by 1970s graphic styles.</p>
+      </article>
+      <article class="card">
+        <h3>Real‑World Projects</h3>
+        <p>Coursework, labs, and personal builds demonstrating consistent iteration and learning.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Jae Cunningham • <a href="mailto:you@example.com">Contact</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

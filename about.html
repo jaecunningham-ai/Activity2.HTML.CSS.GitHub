@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Jae Cunningham</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="About page for Jae Cunningham." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Jae Cunningham</h1>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active" aria-current="page">About</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>About Me</h2>
+    <p>
+      I’m a student and developer focused on accessible web experiences.
+      I enjoy building clean interfaces, solving real problems, and documenting what I learn.
+    </p>
+
+    <div class="about-grid">
+      <figure>
+        <!-- Replace with your own personal image and update alt text -->
+        <img src="img/jae-travel.svg" alt="Jae exploring a travel destination" width="800" height="533" />
+        <figcaption class="caption">Personal photo placeholder — replace with your own image.</figcaption>
+      </figure>
+
+      <section>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML5, semantic structure, a11y</li>
+          <li>CSS3, Flexbox, Grid, animations</li>
+          <li>Version control with Git &amp; GitHub</li>
+        </ul>
+        <h3>Currently Learning</h3>
+        <ul>
+          <li>JavaScript fundamentals</li>
+          <li>Design systems and components</li>
+          <li>Performance &amp; SEO basics</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Jae Cunningham • <a href="mailto:you@example.com">Contact</a></p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
